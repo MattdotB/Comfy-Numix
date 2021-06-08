@@ -27,4 +27,4 @@ Go into your theme folder > Comfy > support
 
 ## Credits
 
-Thanks a lot to Snapperito, Harley, Tropical and others peeps that I forgot for the help !
+A big thanks to Nyria for creating this theme and helped me about! Must follow her Discord Server if you want to install this theme (jump to Themes > Comfy Numix > Support button.

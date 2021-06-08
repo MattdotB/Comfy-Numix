@@ -15,11 +15,11 @@ Custom Version of comfy, with Numix Dark Palette & Custom wallpaper.
 ```sh
 git clone https://github.com/NYRI4/Comfy-git-clone
 ```
+honestly dunno if it works.
 
 ### BetterDiscord
 
-1. Go [here](https://betterdiscord.app/Download?id=130)
-2. Save the file into your theme folder
+1. Drag & Drop the comfynumix.theme.css to your folder
 
 ## 🖌️ Customization
 Go into your theme folder > Comfy > support

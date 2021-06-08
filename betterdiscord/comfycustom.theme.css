@@ -1,0 +1,191 @@
+/**
+* @name Comfy (custom)
+* @author Matt
+* @description comfy by Nyria#3863 (heavly customized  with Numix dark Palette) + usrbg fix 
+* @authorId 146969728919797760
+* @invite rtBQX5D3bD 
+* @version 0.1
+* @website https://betterdiscord.app/Download?id=130
+*/
+
+@import "https://nyri4.github.io/Comfy/betterdiscord/main.css";
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+@import "https://nyri4.github.io/Discolored/main.css";
+
+
+/* If you don't like one of those variables until "Other settings" you can delete them or you can also
+    try to change those if you have some css knowledge */
+
+/* User popout animation */
+.headerPlaying-j0WQBV.header-2BwW8b, .headerSpotify-zpWxgT.header-2BwW8b, .headerStreaming-2FjmGz.header-2BwW8b, .headerXbox-3G-4PF.header-2BwW8b { padding-bottom: 30px;}.headerPlaying-j0WQBV.header-2BwW8b:after, .headerSpotify-zpWxgT.header-2BwW8b:after, .headerStreaming-2FjmGz.header-2BwW8b:after, .headerXbox-3G-4PF.header-2BwW8b:after { background: url('https://nyri4.github.io/Comfy/assets/wave.png'); background-size: 250px 20px; animation: animate 6s linear infinite !important; opacity: 1 !important;}.header-2BwW8b:after, .headerPlaying-j0WQBV:before, .headerSpotify-zpWxgT:before, .headerStreaming-2FjmGz:before, .headerXbox-3G-4PF:before { position: absolute;content: "";bottom: -1px;left: 0;width: 250px;height: 20px;z-index: -1;animation: animate2 4s linear infinite;animation-delay: 0s;opacity: 0.5;}.headerPlaying-j0WQBV:before { background: url('https://nyri4.github.io/Comfy/assets/wave_playing.png'); background-size: 250px 20px;}.headerSpotify-zpWxgT:before { background: url('https://nyri4.github.io/Comfy/assets/wave_spotify.png'); background-size: 250px 20px;}.headerStreaming-2FjmGz:before { background: url('https://nyri4.github.io/Comfy/assets/wave_streaming.png'); background-size: 250px 20px;}.headerXbox-3G-4PF:before { background: url('https://nyri4.github.io/Comfy/assets/wave_xbox.png'); background-size: 250px 20px;}@keyframes animate { 0% { background-position-x: 0;} 100% { background-position-x: 250px;}}@keyframes animate2 {0% { background-position-x: 250px; } 100% { background-position-x: 0px;}}
+
+/* No scrollbars */
+::-webkit-scrollbar { display: none !important;}.note-3HfJZ5 { margin-right: 0; }.content-1x5b-n { margin: 0 !important; border-radius: 0; }.mainContent-u_9PKf { padding-left: 8px;}.member-3-YXUe, [id*="private-channels-"] { margin: 0; max-width: unset; }.layout-2DM8Md { border-radius: 0; padding: 0 16px;}.unread-2lAfLh { z-index: 1;}.content-1LAB8Z, .item-1tOPte { margin-right: 8px;}.scroller-2hZ97C { padding-left: 0;}.scroller-2hZ97C > .content-3YMskv, .buttons-3JBrkn, .messagesPopout-24nkyi { padding-right: 10px !important; }.inviteRow-2L02ae {border-radius: 0; padding-left: 15px;}
+
+/* Better Spotify plugin seek bar */
+.container-6sXIoE { border-bottom: none !important; margin-bottom: 0 !important;}.container-6sXIoE .timeline-UWmgAx { position: relative !important;}.container-6sXIoE .bar-g2ZMIm { position: absolute !important; bottom: -6px !important; left: -8px !important; width: 240px !important; height: 53px !important;margin: 0 !important;-webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;mask-image: linear-gradient(0.25turn, #0008, #0002) !important;border-radius: 0 !important;}.barFill-Dhkah7 { border-radius: 0 !important;}.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { height: 88px !important;}.container-6sXIoE .button-14-BFJ:hover { background-color: transparent !important;}.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.barText-lmqc5O, .grabber-7sd5f5 { display: none !important;}
+
+:root {
+/* -- Others settings -- */
+
+/* Background image in status picker */
+--status-background: #1D1D1D;
+
+/* User button spacing */
+--user-buttons-spacing: 8px;
+
+/* Avatar position */
+--avatar-left: 327.5px;
+--avatar-bottom: 26.5px;
+
+/* Avatar roundess */
+--avatar-radius: 100px;  
+
+/* Status roundness */
+--status-radius: 100px; 
+
+/* Server roundess */
+--server-radius: 100px;
+
+/* Avatar width in modals */
+--avatar-width: 100px;
+
+/* Change bonfire in modals */
+--bonfire: url('https://media.tenor.com/images/dd1e129ea84dc31a5ca84d8db3f54ffe/tenor.gif');
+
+/* Colored emoji picker */
+--colored-emoji: grayscale(50%); /* Change the value to "100%" if you want the basic one */
+
+/* Mention color */
+--mention-color: #f04747;
+--unread-color: #1D1D1D;
+
+/* Mention color in chat */
+--mention-color-bar: #C66262;
+--mention-color-background: #c662621f;
+--mention-color-hover: #c6626226;
+
+/* User settings color (Mute, Deafen and settings) */
+--user-buttons-color: #D64937;
+
+/* Chat buttons color */
+--chat-buttons: #D64937;
+
+/* Spotify plugin  */
+--spotify-color: #D64937;
+
+/* Status color */
+--online: #43B581;
+--iddle: #FAA61A;
+--dnd: #D64937;
+--offline: #3D3D3D;
+--streaming: #593695;
+
+/* Circles next to role names */
+--role-circle: 5px;
+
+/* Tooltips */
+--tooltips: block; /* Set it to "none" if you don't want it */
+
+/* Discord logo */
+--discord-logo: block; /* Set it to "block" if you want it */
+
+}
+ 
+:root.theme-dark {
+    --background-tertiary: #0D0D0D;
+    --background-secondary:url("https://cdn.discordapp.com/attachments/772447262592466946/847914265306595388/discordbg4.png"),;
+    --background-secondary-alt: #0D0D0D;
+    --background-primary: url("https://cdn.discordapp.com/attachments/772447262592466946/847912859395686440/discordbg2.png");
+    --background-mobile-primary: #0D0D0D;
+    --background-mobile-secondary: #0D0D0D;
+    --channeltextarea-background: rgb(29, 29, 29,0.30);
+    --background-accent: #D64937;
+    --background-message-hover: transparent;
+    --background-modifier-hover: #8b3024;
+    --background-modifier-active: #3D3D3D;
+    --background-modifier-selected: #1D1D1D;
+    --deprecated-card-bg: #12141f63;
+    --background-floating: #1D1D1D;
+    --deprecated-quickswitcher-input-background:#1D1D1D;
+    --elevation-low: none;
+    --scrollbar-auto-thumb: #D64937;
+    --scrollbar-auto-track: #D64937;
+    --scrollbar-thin-thumb: #141925;
+    --activity-card-background: #2D2D2D;
+    --font-primary: 'Ginto', sans-serif;
+
+    
+
+
+}
+ 
+.theme-light { /* I don't support light theme it's just for the "Create a server" popup */
+    --background-tertiary: #1D1D1D;
+    --background-secondary: #3D3D3D;
+    --background-secondary-alt: #2D2D2D;
+    --background-primary: #2D2D2D;
+    --background-accent: #D64937;
+    --background-modifier-hover: #D64937;
+    --background-modifier-active: #262b41;
+    --header-primary: #fff;
+    --header-secondary: #ffffff;
+    --text-normal: #ffffff;
+}
+
+
+
+.userPopout-3XzG_A[style*="https"] .profileBanner-33-uE1{
+  opacity: 0;
+}
+
+
+.body-3iLsc4, .headerTop-2y3V6H, .headerNormal-1l1Znk, .footer-1fjuF6, .layer-v9HyYc, .avatar-22FtUu {
+    background:none !important;
+    background-image: none !important;
+}
+
+.userPopout-3XzG_A, .headerTop-2y3V6H, .headerNormal-1l1Znk, .animatorRight-3i_YPs{
+    border-radius: 5px;
+}
+
+.animatorRight-3i_YPs, .animatorLeft-1EQxU0, .noArrow-2foL9g {
+    background: var(--background-floating)!important;
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.33;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: var(--user-popout-position) center;
+    background-image: var(--user-background)!important;
+    -webkit-mask-image: linear-gradient(#000, transparent) !important;
+}
+
+.userPopout-3XzG_A  .header-2BwW8b,
+.userPopout-3XzG_A  .scroller-2FKFPG,
+.userPopout-3XzG_A  .footer-1fjuF6 {
+    z-index: 1;
+}
+
+/*Remove Banner color*/
+div.profileBanner-33-uE1.banner-2QYc2d{
+background-color: var(--background-floating)!important;
+}
+
+/*spotify buttons*/
+.container-6sXIoE .button-14-BFJ.active-6TsW-_ { color: #D64937;} 
+
+
+
+
+

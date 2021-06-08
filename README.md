@@ -10,13 +10,6 @@ Custom Version of comfy, with Numix Dark Palette & Custom wallpaper.
 
 ## 📥 Installation
 
-### Powercord & Vizality
-
-```sh
-git clone https://github.com/NYRI4/Comfy-git-clone
-```
-honestly dunno if it works.
-
 ### BetterDiscord
 
 1. Drag & Drop the comfynumix.theme.css to your folder

@@ -6,7 +6,7 @@
 ![Preview](https://cdn.discordapp.com/attachments/772447262592466946/851900364785451028/unknown.png)
 
 Custom Version of comfy, with Numix Dark Palette & Custom wallpaper.
-(please note: darker wallpaper are made with 80% layer in photoshop.
+(please note: darker wallpaper are made with 80% layer in photoshop)
 
 ## 📥 Installation
 

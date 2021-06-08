@@ -29,3 +29,4 @@ Go into your theme folder > Comfy > support
 ## Credits
 
 A big thanks to Nyria for creating this theme and helped me about! Must follow her Discord Server if you want to install this theme (jump to Themes > Comfy Numix > Support button.
+

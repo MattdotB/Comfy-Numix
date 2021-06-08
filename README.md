@@ -5,6 +5,8 @@
 # Comfy
 ![Preview](https://cdn.discordapp.com/attachments/772447262592466946/851900364785451028/unknown.png)
 
+Custom Version of comfy, with Numix Dark Palette & a custom wallpaper.
+
 ## 📥 Installation
 
 ### Powercord & Vizality

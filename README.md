@@ -3,7 +3,7 @@
 ---
 
 # Comfy
-![Preview](https://i.ibb.co/5cWJGRP/Preview.png)
+![Preview](https://cdn.discordapp.com/attachments/772447262592466946/851900364785451028/unknown.png)
 
 ## 📥 Installation
 
